@@ -87,6 +87,7 @@ task-manager/
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
+## 
 
 🔧 Kurulum
 
