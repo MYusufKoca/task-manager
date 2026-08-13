@@ -93,19 +93,27 @@ task-manager/
 
 Projeyi bilgisayarınızda çalıştırmak için öncelikle repository'yi klonlayın:
 
+```
 git clone REPOSITORY_URL
+```
 
 Proje klasörüne girin:
 
+```
 cd task-manager
+```
 
 Gerekli paketleri yükleyin:
 
+```
 npm install
+```
 
 Geliştirme sunucusunu başlatın:
 
+```
 npm run dev
+```
 
 Daha sonra terminalde gösterilen localhost adresini tarayıcıda açabilirsiniz.
 
@@ -113,7 +121,9 @@ Daha sonra terminalde gösterilen localhost adresini tarayıcıda açabilirsiniz
 
 Production versiyonunu oluşturmak için:
 
+```
 npm run build
+```
 
 komutu kullanılabilir.
 
