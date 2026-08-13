@@ -1,16 +1,89 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React ve Bootstrap 5 kullanılarak geliştirilmiş basit bir görev yönetim uygulamasıdır.
 
-Currently, two official plugins are available:
+Bu proje, modern JavaScript kütüphaneleri kullanılarak CRUD işlemlerinin gerçekleştirilmesini göstermek amacıyla geliştirilmiştir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Kullanılan Teknolojiler
 
-## React Compiler
+- React
+- JavaScript
+- Vite
+- Bootstrap 5
+- HTML5
+- CSS3
+- LocalStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Proje Özellikleri
 
-## Expanding the Oxlint configuration
+Uygulama üzerinden görevler oluşturulabilir ve yönetilebilir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### ➕ Görev Ekleme
+
+Yeni bir görev oluşturulabilir.
+
+Görev için:
+
+- Görev adı
+- Açıklama
+- Öncelik
+
+bilgileri girilebilir.
+
+### 📋 Görev Listeleme
+
+Eklenen görevler ana sayfada kartlar halinde listelenir.
+
+Her görevde:
+
+- Görev adı
+- Açıklama
+- Öncelik
+- Durum
+
+bilgileri gösterilir.
+
+### ✏️ Görev Güncelleme
+
+Mevcut görevlerin bilgileri güncellenebilir.
+
+Güncelleme butonuna basıldığında görev bilgileri forma aktarılır ve kullanıcı bilgileri değiştirebilir.
+
+### 🗑️ Görev Silme
+
+İstenilen görev uygulamadan silinebilir.
+
+### 💾 LocalStorage
+
+Görevler tarayıcının LocalStorage alanında saklanır.
+
+Bu sayede sayfa yenilendiğinde görevler kaybolmaz.
+
+## 📁 Proje Yapısı
+
+```text
+task-manager/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── TaskCard.jsx
+│   │   ├── TaskForm.jsx
+│   │   └── TaskList.jsx
+│   │
+│   ├── interfaces/
+│   │   └── Task.js
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
