@@ -87,3 +87,61 @@ task-manager/
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
+
+🔧 Kurulum
+
+Projeyi bilgisayarınızda çalıştırmak için öncelikle repository'yi klonlayın:
+
+git clone REPOSITORY_URL
+
+Proje klasörüne girin:
+
+cd task-manager
+
+Gerekli paketleri yükleyin:
+
+npm install
+
+Geliştirme sunucusunu başlatın:
+
+npm run dev
+
+Daha sonra terminalde gösterilen localhost adresini tarayıcıda açabilirsiniz.
+
+🏗️ Production Build
+
+Production versiyonunu oluşturmak için:
+
+npm run build
+
+komutu kullanılabilir.
+
+Build sonucunda Vite tarafından dist klasörü oluşturulur.
+
+🌐 Canlı Demo
+
+Proje Netlify üzerinden yayınlanmıştır.
+
+Canlı Demo:
+BURAYA_NETLIFY_LINKI_GELECEK
+
+📸 Ekran Görüntüsü
+
+Projenin çalışma ekranı:
+
+![Task Manager](screenshots/task-manager1.png)
+![Task Manager](screenshots/task-manager2.png)
+![Task Manager](screenshots/task-manager3.png)
+
+
+🎯 CRUD İşlemleri
+İşlem    Açıklama
+Create    Yeni görev ekleme
+Read    Görevleri listeleme
+Update    Mevcut görevi güncelleme
+Delete    Görevi silme
+👨‍💻 Geliştirici
+
+Mehmet Yusuf Koca
+
+Bu proje eğitim ve uygulama amacıyla geliştirilmiştir.
