@@ -134,7 +134,7 @@ Build sonucunda Vite tarafından dist klasörü oluşturulur.
 Proje Netlify üzerinden yayınlanmıştır.
 
 Canlı Demo:
-BURAYA_NETLIFY_LINKI_GELECEK
+https://elegant-tartufo-005124.netlify.app
 
 📸 Ekran Görüntüsü
 
